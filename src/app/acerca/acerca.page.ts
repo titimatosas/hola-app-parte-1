@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import {
   IonHeader,
   IonToolbar,
@@ -7,6 +8,7 @@ import {
   IonButtons,
   IonBackButton,
 } from '@ionic/angular';
+
 
 @Component({
   selector: 'app-acerca',
@@ -19,6 +21,7 @@ import {
     IonContent,
     IonButtons,
     IonBackButton,
+    RouterLink,
   ],
 })
 export class AcercaPage {}
